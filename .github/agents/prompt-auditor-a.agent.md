@@ -44,7 +44,7 @@ Run each check against the provided prompt. Report pass/fail with specific line-
 - No terminology inconsistency — the same concept must use the same term throughout (e.g., don't alternate between "asset", "device", and "resource" to mean the same thing)
 
 ### 4. Modular Layout
-Audit the prompt against the canonical section list defined in the [System Prompt Guide](https://github.com/psmeunin-cxepi/iq-product-recommendations/blob/main/SYSTEM_PROMPT_GUIDE.md#template-sections). Mark each section as PRESENT / MISSING / INCOMPLETE.
+Audit the prompt against the canonical section list defined in the [System Prompt Guide](../../system-prompt-guide.md#template-sections). Mark each section as PRESENT / MISSING / INCOMPLETE.
 
 The 10 required sections are: Role, Objective, Scope, Instructions, Toolbox (if agentic), Output Format, Examples (recommended), Validation Checklist (recommended), Special Considerations (if applicable), Runtime Context (if dynamic).
 
